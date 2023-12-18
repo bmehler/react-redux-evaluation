@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch } from "react-redux";
 import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
-import { faCancel, faEdit } from "@fortawesome/free-solid-svg-icons";
+import { faCancel, faEdit, faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { employeeEdit } from "../../reducers/index";
 
@@ -159,7 +159,7 @@ function EditEmployees(props) {
                 </div>
                 <p>{data}</p>
                 <button type="submit" className="btn btn-lg btn-outline-dark mt-3 mb-5"><FontAwesomeIcon icon={faEdit} /> Edit</button>
-                <button type="button" onClick={() => handleBackToCreate()} className="btn btn-lg btn-dark mt-3 mb-5 mx-2"><FontAwesomeIcon icon={faCancel} /> Cancel</button>
+                <button type="button" onClick={() => handleBackToCreate()} className="btn btn-lg btn-dark mt-3 mb-5 mx-2"><FontAwesomeIcon icon={faPlus} /> Create</button>
             </form>
         </div>
     );

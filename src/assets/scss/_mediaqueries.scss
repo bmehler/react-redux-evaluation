@@ -15,7 +15,8 @@
 
 @media only screen and (min-width: 768px) {
     .right {
-        height: 100vh !important
+        height: 1100px !important;
+        min-height: 100vh !important;
     }
 }
 
@@ -24,9 +25,3 @@
         display: none !important
     }
 }
-
-/*@media only screen and (min-width: 1024px) {
-    .right {
-        height: 100vh !important
-    }
-}*/
