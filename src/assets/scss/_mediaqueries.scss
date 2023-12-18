@@ -13,9 +13,9 @@
     color: #1e1a32;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .right {
-        height: 100% !important
+        height: 100vh !important
     }
 }
 
