@@ -9,7 +9,7 @@
     position: sticky;
     top: 0;
     background-color: #F34665;
-    height: 100vh !important;
+    height: 100% !important;
     color: #1e1a32;
 }
 
@@ -22,5 +22,11 @@
 @media only screen and (max-width: 1024px) {
     .button-label {
         display: none !important
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .right {
+        height: 100vh !important
     }
 }
